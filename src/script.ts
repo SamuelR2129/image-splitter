@@ -17,8 +17,8 @@ async function createImageGrid() {
   const aspectRatio = img.height / img.width;
   grid.style.height = `${gridWidth * aspectRatio}px`;
 
-  const sliceWidth = 1013;
-  const sliceHeight = 1350;
+  const sliceWidth = 1080;
+  const sliceHeight = 1440;
 
   console.log("slicewidth", sliceWidth, "sliceHeight", sliceHeight);
 
